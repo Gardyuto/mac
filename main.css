@@ -1,0 +1,283 @@
+main {
+    width: 61%;
+    /* background-color: brown; */
+    height: 100vh;
+}
+
+
+
+
+.contChat::-webkit-scrollbar {
+    width: 7px;
+}
+
+.contChat::-webkit-scrollbar-button {
+    height: 0;
+}
+
+.contChat::-webkit-scrollbar-thumb {
+    background-color: rgb(204, 204, 204);
+    border-radius: 15px;
+}
+
+.contChat p:hover {
+    background-color: rgba(255, 255, 255, 0.204);
+    color: #FFFFFF;
+}
+
+
+.main_top_find {
+    /* background-color: rgb(252, 255, 63); */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 23px;
+    height: 79px;
+
+}
+
+
+
+.main_general {
+    margin-right: 5.5px;
+}
+
+.cont_input_find {
+    width: 241px;
+    height: 33px;
+    background-color: blueviolet;
+    position: relative;
+    margin: 0 24px 0 23px;
+}
+
+.main_top {
+    margin-left: 6px;
+}
+
+.cont_input_find input {
+    /* text-align: right; */
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    padding: 0 32px 0 16px;
+
+}
+
+.cont_input_find img {
+    position: absolute;
+    right: 8.5px;
+
+}
+
+.cont_bull {
+    position: relative;
+}
+
+
+
+.ball_bull {
+    width: 5.5px;
+    height: 5.5px;
+    background-color: #fd4948;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 50%;
+
+}
+
+.contPoint {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    margin-left: 24px;
+}
+
+.contPoint span {
+    display: block;
+    width: 4.5px;
+    height: 4.5px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 50%;
+}
+
+/*! contChat Start */
+
+.contChat {
+    height: calc(100vh - 154px);
+    margin: 0 5px 0 25px;
+    padding-right: 9.5px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-y: scroll;
+
+}
+
+/*  */
+
+/*  */
+
+.messageUser {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    margin: 19px 0;
+}
+
+.message_avatar {}
+
+.message_text {
+
+    margin: 0 0 0 20px;
+    width: 100%;
+}
+
+.message_info {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.massageUser_Name {
+    margin-right: 8.5px;
+    line-height: 20px;
+}
+
+.message_time {
+    color: #8D8D8D;
+}
+
+
+.messageUser_link {
+    color: #3577EF;
+}
+
+
+
+/* !линия */
+
+.line {
+    color: #8D8D8D;
+    border-bottom: #0000002d 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 12px 0;
+}
+
+.line p {
+    position: absolute;
+    background-color: white;
+    padding: 0 15px;
+}
+
+/*! contChat end */
+
+
+.chatKey {
+    height: 71px;
+    /* background: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 22px 0 22px;
+}
+
+.message {
+    min-width: 68px;
+}
+
+.shape {
+    margin: 0 19px;
+}
+
+.sendMessage {
+    /* background-color: #848e95; */
+    border: none;
+    width: 100%;
+    height: 30px;
+}
+
+
+.globl_message_picture {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cont_message_picture {
+    height: 201px;
+    position: relative;
+}
+
+.message_picture {
+    height: 100%;
+}
+
+
+
+.message_smile_cont {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 30px;
+    height: 13px;
+    background-color: #ffffff;
+    padding: 6px;
+    position: absolute;
+    right: -22.5px;
+    bottom: -11px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #0000001b;
+
+}
+
+.message_smile_cont img {
+    margin-right: 4.5px;
+}
+
+
+
+
+
+/* !линия */
+/* .global_massage_date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.message_date_ledt{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.16);
+   
+    width: 50%;
+}
+.message_date  {  
+    width: 197px;
+margin: 0 15px;
+color: #8D8D8D;
+}
+.message_date_right{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.16);
+    width: 50%;
+} */
+
+/* ?messageUser_two Start */
+/* .messageUser_text {
+    display: flex;
+}
+
+.message_picture{
+    margin-top: 15px;
+} */
+
+/* ? messageUser_two end */
+
+
+
+
+/* ! media */
+
+

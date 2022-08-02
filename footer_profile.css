@@ -1,0 +1,102 @@
+footer{
+    background-color: #cfd2d6;
+    width: calc(21% - 75px);
+    min-width: 182px;
+}
+
+
+.global_profile img{
+    width: 100%;
+}
+
+.global_profile_info{
+    /* padding-left: 20px; */
+    margin-left: 10%;
+}
+
+.global_profile_name{
+    display: flex;
+
+align-items: center;
+}
+
+.profile_name{
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+.global_profile_name .friend.active{
+    margin: 0 0 0 5.5px;
+    width: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.UI{
+    color: #5F6164;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+.cont_accaunt{
+    display: flex;
+
+}
+
+.acc{
+    background-color: #E8E8EB;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 20px 0;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+.Profile_button{
+/* margin-left: 3%; */
+}
+
+.Profile_button button{
+    background-color: #3577EF;
+    border: none;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    font-family: 'Lato', sans-serif;
+    height: 25px;
+    
+
+
+}
+
+
+.profile_name{
+    font-family: 'Lato', sans-serif;   
+}
+
+.button_Message {
+    width: 133.5px;
+}
+
+.button_left{
+    width: 25px;
+}
+
+.name_contact_user{
+    color: #5F6164;
+    margin-top: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+.contact_user{
+    font-family: 'Lato', sans-serif;
+}

@@ -1,0 +1,183 @@
+.menu_users * {
+    margin: 0;
+    color: #ffff;
+}
+
+.menu_users p, .menu_users span{
+    color: #919191;
+}
+
+.menu_users {
+ 
+    width: 15%;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#545354+1,464649+25,212223+100 */
+background: #545354; /* Old browsers */
+background: -moz-linear-gradient(top,  #545354 1%, #464649 25%, #212223 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #545354 1%,#464649 25%,#212223 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #545354 1%,#464649 25%,#212223 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545354', endColorstr='#212223',GradientType=0 ); /* IE6-9 */
+
+    /* height: calc(100vh - 34px);
+    padding: 34px 24px 0 23px; */
+    padding: 0 1.5%;
+    height: 100vh;
+ 
+
+  
+}
+.menu_List_Top{
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    height: 11vh;
+}
+.menu_List_Top select {
+    background-color:transparent ;
+    border: none;
+    padding: 0 -10px 0 0 ;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.menu_List_Top select:focus{
+    background-color: black;
+}
+
+.menu_all{
+    display: flex;
+    align-items: flex-start;
+    height: 6vh;
+    
+}
+.menu_all img{
+    margin-right: 11px;
+}
+
+
+.contChannels{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    display: flex;
+    /* flex-direction: column; */
+}
+.contAllChannels {
+    height: 38vh;
+    overflow-y: scroll;
+
+}
+.contAllChannels::-webkit-scrollbar {
+    background-color: rgba(0, 255, 255, 0);
+    width: 7px;
+    
+}
+.contAllChannels::-webkit-scrollbar-button { 
+background-color: #5b9e19;
+width: 0;
+height: 0;
+
+}
+.contAllChannels::-webkit-scrollbar-thumb { 
+background-color: rgba(255, 255, 255, 0.2);
+border-radius: 5px;
+height: 60px;
+
+}
+.contAllChannels::-webkit-scrollbar-track { 
+background-color: #cc167a00;
+}
+
+.contAllChannels p{
+    height: 30px;
+    /* background-color: rgba(255, 255, 255, 0.204); */
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.contAllChannels p:hover{
+    background-color: rgba(255, 255, 255, 0.204);
+    color: #FFFFFF;
+}
+.GlobChannels {
+    height: 44vh;
+}
+
+.contFriends {
+    /* background-color: aquamarine; */
+  
+    height: 39vh;
+
+}
+.contFriendsUser{
+    /* background-color: #70CC16; */
+    /* height: 140px; */
+    height: 33vh;
+    overflow-y:scroll ;
+    /* max-height: 268px; */
+  
+}
+
+.contFriendsUser::-webkit-scrollbar {
+    background-color: rgba(0, 255, 255, 0);
+    width: 7px;
+    
+}
+.contFriendsUser::-webkit-scrollbar-button { 
+background-color: #5b9e19;
+width: 0;
+height: 0;
+
+}
+.contFriendsUser::-webkit-scrollbar-thumb { 
+background-color: rgba(255, 255, 255, 0.2);
+border-radius: 5px;
+height: 60px;
+}
+.contFriendsUser::-webkit-scrollbar-track { 
+background-color: #cc167a00;
+}
+
+
+.contFriendsUser p:hover{
+    background-color: rgba(255, 255, 255, 0.204);
+    color: #FFFFFF;
+}
+
+
+.friend {
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(63, 82, 65); */
+    margin-bottom: 10px;
+
+}
+.grin_radius{
+background: #666;
+width: 8px;
+height: 8px;
+border-radius: 50%;
+
+}
+.active .grin_radius {
+    background: #70CC16;
+}
+
+.friend {
+    width: 100%; 
+    height: 34px;
+  
+}
+
+.friend img {
+    margin: 0 11.5px 0 6px;
+    border-radius: 5%;
+}
+.friend:hover{
+    background-color: rgba(255, 255, 255, 0.204);
+}
+
+

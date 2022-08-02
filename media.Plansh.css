@@ -1,0 +1,48 @@
+@media only screen and (max-width:850px) {
+
+    /* .contChat {
+        background-color: #3577EF;
+    } */
+    .menu_users {
+        min-width: 150px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .main_top_find_left.flexAl {
+        display: none;
+    }
+    .main_top_find_right.flexAl{
+        width: 100%;
+        position: relative;
+   
+
+
+    }
+    .cont_bull {
+        position: absolute;
+        right: 20px;
+    }
+    .contPoint{
+        position: absolute;
+        right: 0px;
+    }
+    .cont_input_find.flexAl {
+        width: 90%;
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (max-width:535px) {
+    header {
+        display: none;
+    }
+
+}
+
